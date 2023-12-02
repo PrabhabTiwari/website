@@ -9,7 +9,11 @@ html, body {
 	padding: 0;
 }
 
-body {
+body  {
+text-align: justify;
+-moz-text-align-last: center;
+text-align-last: center;
+
 	background-color: rgb(228, 220, 220);
 	font-family: 'Playfair Display', serif;
 	line-height: 1.3;
