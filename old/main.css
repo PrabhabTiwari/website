@@ -159,4 +159,8 @@ li a:hover:not(.active) {
     animation: prabhab-anim 8s infinite linear
 }
 
-
+.up {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
