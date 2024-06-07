@@ -158,5 +158,9 @@ li a:hover {
     background-size: 100% 300%;
     animation: prabhab-anim 8s infinite linear
 }
-
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
