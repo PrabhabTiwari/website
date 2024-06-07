@@ -53,7 +53,9 @@ h1{
 .leftalign {
     text-align: left;
 }
-
+.rightalign {
+    text-align: right;
+}
 .justify {
     text-align: justify;
 }
