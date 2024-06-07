@@ -93,18 +93,19 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, .4);
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+background-color: rgba(255, 255, 255, .4);
 }
 
 li {
   float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
 
 li a {
-font-weight: bold;
   display: block;
   color: black;
   text-align: center;
@@ -112,14 +113,13 @@ font-weight: bold;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: rgba(255, 255, 255, .4);
+li a:hover:not(.active) {
+  background-color: background-color: rgba(255, 255, 255, .4);
 }
 
 .active {
   background-color: rgba(255, 255, 255, .4);
 }
-
 .redText {
   color: red;
 }
