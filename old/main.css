@@ -22,6 +22,10 @@ body  {
 	text-size-adjust: none;
 }
 
+a:link {
+  color: black;
+}
+
 p {
   font-weight: 450;
 	margin: 0;
