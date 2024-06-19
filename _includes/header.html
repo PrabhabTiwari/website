@@ -1,9 +1,14 @@
 <div class="up">
 <div class="center">
   <ul>
+     
     <li> <div class="logo.html"> </div> </li>
     <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
+    
+ <li><a href="{{ '/about' | prepend: site.url }}">Biography</a></li>
+
+<li><a href="{{ '/software' | prepend: site.url }}">Software</a></li>
+    
  <!--   <li><a href="quotes.html">Quotes</a></li> -->
     <li><a href="software.html">Softwares</a></li>
   <!--  <li><a href="contact.html">Contact</a></li> -->
