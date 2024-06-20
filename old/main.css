@@ -7,11 +7,7 @@
 html, body {
 	margin: auto;
 	padding: 0;
-}
 
-body  {
-
-	
  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     height: 100vh;
     overflow: hidden;
@@ -346,14 +342,12 @@ body  {
       -webkit-transform: rotate(405deg);
               transform: rotate(405deg);
     }
+	
+}
 
-
-
-	      
+body  {
 -moz-text-align-last: center;
 
-
-	
 	font-family: 'Playfair Display', serif;
 	line-height: 1.3;
 	-webkit-font-smoothing: antialiased;
