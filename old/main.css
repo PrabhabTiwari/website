@@ -21,9 +21,20 @@ body  {
 	text-size-adjust: none;
 }
 
-a:link {
-  color: black;
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
 }
+
 
 p {
   font-weight: 450;
@@ -94,7 +105,8 @@ ul {
   
   padding: 0;
   overflow: hidden;
-background-color: rgba(255, 255, 255, .4);
+    background-color: rgb(228, 220, 220);
+	
 }
 
 li {
