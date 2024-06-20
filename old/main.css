@@ -50,7 +50,7 @@ a img {
 
 h1{
   text-align:left;
-<!--   font-size: 90px; -->
+  font-size: 40px; 
   font-weight: 900;
 }
 
@@ -80,7 +80,7 @@ h3{
 }
 
 p{
-<!--   font-size: 50px; -->
+font-size: 30px;
 }
 
 h6{
