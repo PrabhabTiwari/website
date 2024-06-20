@@ -100,7 +100,7 @@ h6{
 }
 
 ul {
-	
+	font-size: 35px;
   list-style-type: none;
   
   padding: 0;
@@ -130,9 +130,7 @@ li a:hover:not(.active) {
  
 }
 
-.active {
-  background-color: rgba(255, 255, 255, .4);
-}
+
 .redText {
   color: red;
 }
