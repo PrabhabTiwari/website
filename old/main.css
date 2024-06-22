@@ -170,3 +170,8 @@ li a:hover:not(.active) {
     animation: prabhab-anim 8s infinite linear
 }
 
+.rectangle {
+  height: 20px;
+  width: autopx;
+     background-color: bisque;
+}
