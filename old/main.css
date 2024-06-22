@@ -173,5 +173,5 @@ li a:hover:not(.active) {
 .rectangle {
   height: 20px;
   width: autopx;
-     background-color: bisque;
+     background-color: #ccc6c6;
 }
